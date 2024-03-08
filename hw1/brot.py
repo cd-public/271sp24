@@ -75,7 +75,7 @@ def one_val(base, iters, color, c):
 		return
 	for i in range(iters):
 		if abs(z_n) > 2:
-			return base
+			return
 		(x,y) = c2b(z_n, size)
 		x = min(x, size - 1) # prevent overflow
 		y = min(y, size - 1) # prevent overflow
