@@ -108,7 +108,7 @@ def get_colors(base, iters):
 	return
 
 
-def normalize(base):
+def equalize(base):
 	pass
 
 # Name:  Buddhabrot
